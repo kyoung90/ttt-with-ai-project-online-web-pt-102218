@@ -64,7 +64,7 @@ class Game
 
   def turn
     # binding.pry
-    input = self.gets.chomp
+    input = gets.chomp
     puts "anything"
     if self.board.valid_move?(input)
       # binding.pry
