@@ -70,7 +70,7 @@ class Game
       # binding.pry
       # self.board.position(input) = self.current_player.token
     else
-      # turn
+      turn
     end
   end
 
