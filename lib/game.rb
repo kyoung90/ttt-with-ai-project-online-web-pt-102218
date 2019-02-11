@@ -63,6 +63,7 @@ class Game
   end
 
   def turn
+    binding.pry
     input = gets.chomp
     puts "anything"
     if self.board.valid_move?(input)
