@@ -68,7 +68,7 @@ class Game
     input = current_player.move(self.board)
     if self.board.valid_move?(input)
       # binding.pry
-      self.board.position(input) = self.current_player.token
+      # self.board.position(input) = self.current_player.token
     else
       turn
     end
