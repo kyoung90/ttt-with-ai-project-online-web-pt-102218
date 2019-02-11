@@ -64,8 +64,8 @@ class Game
 
   def turn
     # binding.pry
-    input = gets.chomp
     puts "anything"
+    input = current_player.move
     if self.board.valid_move?(input)
       # binding.pry
       # self.board.position(input) = self.current_player.token
